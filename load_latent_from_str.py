@@ -7,7 +7,7 @@ class load_latent_from_str_class:
         return {
                 "required": {
                     "filename": ("STRING", {"default": "ComfyUI"}),
-                    "output_dir": ("STRING", {"default": """D:\StableDiffusion\workingwebui\comfyui\input"""})
+                    "output_dir": ("STRING", {"default": """your path"""})
                     }
                 }
 
