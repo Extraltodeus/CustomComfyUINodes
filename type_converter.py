@@ -27,7 +27,7 @@ def addConverterType(t_in, t_out):
                                                  (TypeConverter,), 
                                                  { "INPUT_TYPE": [t_in,t_out], "TYPE_OUT": t_out, "RETURN_TYPES": (t_out,), "RETURN_NAMES": (t_out,) })
 # Now you can create a converter from one type to another
-nodes_to_create = ["INT","FLOAT","STRING","PROMPT","CONDITIONING"]
+nodes_to_create = ["INT","FLOAT","STRING","PROMPT","CONDITIONING","LATENT","MASK","IMAGE"]
 for n in nodes_to_create:
     for c in nodes_to_create:
         addConverterType(n,c)
